@@ -12,7 +12,13 @@ A credit card credit dataset from LendingClub, a peer-to-peer lending services c
 
 
 
-## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+## Results:  describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+
+The accuracy, precision and recall scores are summarized for each of the six models.
+
+![summary](summary.png)
+
+Detailed classification report for each model.
 
 1. Oversampling using Naive Random Oversampling
 
