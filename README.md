@@ -12,54 +12,42 @@ A credit card credit dataset from LendingClub, a peer-to-peer lending services c
 
 
 
-## Results:  describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+## Results
 
-The accuracy, precision and recall scores are summarized for each of the six models.
+The accuracy, precision and recall scores are summarized for each of the six models:
 
 ![summary](summary.png)
 
-Detailed classification report for each model.
 
-1. Oversampling using Naive Random Oversampling
+Detailed classification report for each model:
 
-Balanced accuracy score = 0.6456130066757718
-
+- Oversampling using Naive Random Oversampling (ROS)
 
 ![ros_report](ros_report.png)
 
 
-2. Oversampling using SMOTE 
-
-Balanced accuracy score = 0.6234433606890912
+- Oversampling using SMOTE 
 
 ![smote_report](smote_report.png)
 
 
-3. Undersampling using Cluster Centroids 
-
-Balanced accuracy score = 0.5138873780775228
+- Undersampling using Cluster Centroids (CC)
 
 ![cc_report](cc_report.png)
 
 
-4. Combination (Over and Under) sampling using SMOTEENN
-
-Balanced accuracy score = 0.6156536172852936
+- Combination (Over and Under) sampling using SMOTEENN
 
 ![smoteenn_report](smoteenn_report.png)
 
 
-5. Balanced Random Forest Classifier
-
-Balanced accuracy score = 0.7885466545953005
+- Balanced Random Forest Classifier (BRF)
 
 ![brf_report](brf_report.png)
 
 
-6. Easy Ensemble AdaBoost Classifier 
-
-Balanced accuracy score = 0.9316600714093861
-
+- Easy Ensemble AdaBoost Classifier (EEC)
+- 
 ![eec_report](eec_report.png)
 
 
