@@ -15,7 +15,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![smote_report](smote_report.png)
 
-![cc_report](cc.png)
+![cc_report](cc_report.png)
 
 ![smoteenn_report](smoteenn_report.png)
 
