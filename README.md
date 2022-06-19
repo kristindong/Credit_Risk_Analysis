@@ -11,7 +11,16 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
+![ros_report](ros_report.png)
+
+![smote_report](smote_report.png)
+
+![cc_report](cc.png)
+
+![smoteenn_report](smoteenn_report.png)
 
 
+![brf_report](brf_report.png)
+![eec_report](eec_report.png)
 
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
