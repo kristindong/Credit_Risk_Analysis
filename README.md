@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview
 
 The purpose of the project is to apply machine learning techniques to classify credit card risk.
 
