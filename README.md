@@ -20,9 +20,11 @@ The accuracy, precision and recall scores are summarized for each of the six mod
 
 
 
+
 - Oversampling using Naive Random Oversampling (ROS)
 
 ![ros_report](ros_report.png)
+
 
 
 - Oversampling using SMOTE 
@@ -30,9 +32,11 @@ The accuracy, precision and recall scores are summarized for each of the six mod
 ![smote_report](smote_report.png)
 
 
+
 - Undersampling using Cluster Centroids (CC)
 
 ![cc_report](cc_report.png)
+
 
 
 - Combination (Over and Under) sampling using SMOTEENN
@@ -40,14 +44,17 @@ The accuracy, precision and recall scores are summarized for each of the six mod
 ![smoteenn_report](smoteenn_report.png)
 
 
+
 - Balanced Random Forest Classifier (BRF)
 
 ![brf_report](brf_report.png)
 
 
+
 - Easy Ensemble AdaBoost Classifier (EEC)
-- 
+
 ![eec_report](eec_report.png)
+
 
 
 
