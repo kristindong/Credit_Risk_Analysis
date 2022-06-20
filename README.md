@@ -21,13 +21,13 @@ The accuracy, precision and recall scores are summarized for each of the six mod
 
 
 
-- Oversampling using Naive Random Oversampling (ROS)
+- Oversampling using Random Oversampling (ROS)
 
 ![ros_report](ros_report.png)
 
 
 
-- Oversampling using SMOTE 
+- Oversampling using SMOTE (SMOTE)
 
 ![smote_report](smote_report.png)
 
@@ -45,7 +45,7 @@ The accuracy, precision and recall scores are summarized for each of the six mod
 
 
 
-- Balanced Random Forest Classifier (BRF)
+- Balanced Random Forest Classifier (BRFC)
 
 ![brf_report](brf_report.png)
 
@@ -59,9 +59,6 @@ The accuracy, precision and recall scores are summarized for each of the six mod
 
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-
 
 Since bad loans are highly undesirable, in addition to overall accuracy, we want the model to be good at detecting high risks. That is, we want to minimize false negatives in High Risk classifications. Therefore, we want to choose a model with a high recall score for High Risk.
 
