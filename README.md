@@ -19,7 +19,6 @@ The accuracy, precision and recall scores are summarized for each of the six mod
 ![summary](summary.png)
 
 
-Detailed classification report for each model:
 
 - Oversampling using Naive Random Oversampling (ROS)
 
@@ -52,6 +51,20 @@ Detailed classification report for each model:
 
 
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary
+
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+
+Since bad loans are highly undesirable, in addition to overall accuracy, we want the model to be good at detecting high risks. That is, we want to minimize false negatives in High Risk classifications. Therefore, we want to choose a model with a high recall score for High Risk.
+
+- All of the models improved the recall score
+- The Easy Ensemble AdaBoost Classifier (EEC) and Balanced Random Forest Classifier (BRFC) performed better than the resampled logistic regression models, with EEC scoring highest for every metric
+- The two oversampling models (ROS and SMOTE) yielded comparable results for accuracy, precision, and recall scores
+- The combination resampling model (SMOTEENN) had similar scores to oversampling except that the Low Risk recall score was lower
+- The undersampling model (CC) preformed worst, with the lowest accuracy and recall scores
+- All models scored very low in the High Risk precision metric
+
+Based on these metrics, Easy Ensemble AdaBoost Classifier would be the best choice. However, the High Risk precision score is still very low. Perhaps increasing the sample size in conjunction with EEC model can further improve the score. 
 
 
